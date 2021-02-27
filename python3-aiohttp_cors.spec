@@ -6,7 +6,7 @@ Summary:	CORS support for aiohttp
 Summary(pl.UTF-8):	Obsługa CORS dla aiohttp
 Name:		python3-aiohttp_cors
 Version:	0.7.0
-Release:	1
+Release:	2
 License:	Apache v2.0
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/aiohttp_cors/
