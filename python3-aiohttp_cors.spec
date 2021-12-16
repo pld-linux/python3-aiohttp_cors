@@ -14,7 +14,7 @@ Source0:	https://files.pythonhosted.org/packages/source/a/aiohttp_cors/aiohttp-c
 # Source0-md5:	de3940a901b269be82c8bd9f28d53ff0
 URL:		https://pypi.org/project/aiohttp_cors/
 BuildRequires:	python3-modules >= 1:3.4.1
-BuildRequires:	python3-setuptools >= 20.8.1
+BuildRequires:	python3-setuptools >= 1:20.8.1
 %if %{with tests}
 BuildRequires:	python3-aiohttp >= 1.1
 BuildRequires:	python3-pytest
