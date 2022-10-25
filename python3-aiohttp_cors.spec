@@ -20,7 +20,7 @@ BuildRequires:	python3-aiohttp >= 1.1
 BuildRequires:	python3-pytest
 BuildRequires:	python3-pytest-cov
 BuildRequires:	python3-selenium
-%if "%{py3_ver}" < "3.5"
+%if "%{py3_ver}" == "3.4"
 BuildRequires:	python3-typing
 %endif
 %endif
