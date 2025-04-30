@@ -5,13 +5,13 @@
 Summary:	CORS support for aiohttp
 Summary(pl.UTF-8):	Obsługa CORS dla aiohttp
 Name:		python3-aiohttp_cors
-Version:	0.7.0
-Release:	6
+Version:	0.8.1
+Release:	1
 License:	Apache v2.0
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/aiohttp_cors/
-Source0:	https://files.pythonhosted.org/packages/source/a/aiohttp_cors/aiohttp-cors-%{version}.tar.gz
-# Source0-md5:	de3940a901b269be82c8bd9f28d53ff0
+Source0:	https://files.pythonhosted.org/packages/source/a/aiohttp_cors/aiohttp_cors-%{version}.tar.gz
+# Source0-md5:	bef1294f1ab08844eb35a56c7157026d
 URL:		https://pypi.org/project/aiohttp_cors/
 BuildRequires:	python3-modules >= 1:3.4.1
 BuildRequires:	python3-setuptools >= 1:20.8.1
@@ -40,7 +40,7 @@ Resource Sharing - współdzielenie zasobów z innych źródeł) dla
 asynchronicznego serwera HTTP aiohttp, opartego na asyncio.
 
 %prep
-%setup -q -n aiohttp-cors-%{version}
+%setup -q -n aiohttp_cors-%{version}
 
 %build
 %py3_build
